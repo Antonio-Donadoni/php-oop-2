@@ -32,7 +32,7 @@
     class Cube extends Square {
 
         public function getArea() {
-          return 6* $this -> side * $this -> side;
+          return 6* parent::getArea();
 
         }
 
